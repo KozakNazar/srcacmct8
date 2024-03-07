@@ -29,18 +29,18 @@ struct grammar_simple : qi::grammar<Iterator>{
         l = 'l';
         m = 'm';
         n = 'n';
-        o =	'o';
-        p =	'p';
-        q =	'q';
-        r =	'r';
-        s =	's';
-        t =	't';
-        u =	'u';
-        v =	'v';
-        w =	'w';
-        x =	'x';
-        y =	'y';
-        z =	'z';
+        o = 'o';
+        p = 'p';
+        q = 'q';
+        r = 'r';
+        s = 's';
+        t = 't';
+        u = 'u';
+        v = 'v';
+        w = 'w';
+        x = 'x';
+        y = 'y';
+        z = 'z';
     }
 
     qi::rule<Iterator> low3, low_case_letter, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z;
