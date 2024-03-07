@@ -6,7 +6,7 @@
 
 namespace qi = boost::spirit::qi;
 
-/* Example for EBNF:
+/* An example of the extended Backus-Naur (EBNF) form for Low9:
 low3 = low_case_letter , low_case_letter , low_case_letter.
 low_case_letter = 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm’  | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z’.
 */
